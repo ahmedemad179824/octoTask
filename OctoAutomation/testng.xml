@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Octo Automation suite" preserve-order="true" parallel="false">
+	<test name="Regression Setup1"  enabled="true" preserve-order="true" >
+		<classes>
+		    <class name="tests.LoginWithInvalidData"/>
+		    <class name="tests.LoginWithMissingPassword"/>
+			<class name="tests.LoginWithValidData"/>
+			<class name="tests.AddNewCustomer"/>
+			<class name="tests.AddNewCustomerAlreadyExist"/>
+			<class name="tests.AddNewCustomerWithMissingData"/>
+		</classes>
+	</test>
+</suite> 
